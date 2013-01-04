@@ -1,0 +1,14 @@
+EECS 448 Software Engineering
+Semester Project - Fall 2012
+University of Kansas, School Of Engineering, Department of Elect. Engineering and Computer Science
+Licensed under GPL v2
+
+Authors
+Tim Lamb
+Christopher "Pho" Hale
+Alison Moses
+Seth Polsley
+Howard Grimberg
+
+Proffessor/Advisor
+Mark Calnon

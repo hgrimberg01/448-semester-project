@@ -1,0 +1,8 @@
+com.connectors
+com.google.api.services.samples.shared.cmdline.oauth2
+com.gui
+com.managers
+com.pojos
+org.eclipse.wb.swing
+tests.com.managers
+tests.com.pojos
