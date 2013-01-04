@@ -1,0 +1,5 @@
+1. Finish adding license to all files.
+2. Figure out what license the Google Analytics stuff is under and adjust everything accordingly.
+3. Figure out how to decouple the entire project from MySQL
+4. Figure out how to decouple the managers.
+5. Correct/Update/License the documentation
