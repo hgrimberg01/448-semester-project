@@ -1,0 +1,268 @@
+Brief Description
+--------------------------------------------------
+The "Edit Employee" use case enables an administrator to change all or some of an existing employees'
+contact information.
+--------------------------------------------------
+Step-by-Step Description
+
+1. Administrator selects "Manage Employee Information" tab.
+
+2. Administrator selects employee to be changed from list of existing employees or searches for 
+   employee's name via search bar.
+
+3. Administrator left clicks the "Edit" button.
+
+4. Administrator changes the fields that need to be updated.
+
+5. Administrator left clicks the "Save" button to keep changes made or left clicks the "Cancel" button
+   to not keep changes make and return to the list of existing employees.
+----------------------------------------------------
+
+
+--------------------------------------------------
+Brief Description
+--------------------------------------------------
+The "Delete Employee" use case enables an administrator to delete all or some of the existing employee(s).
+--------------------------------------------------
+Step-by-Step Description
+
+1. Administrator selects "Manage Employee Information" tab.
+
+2. Administrator selects employee to be deleted from list of existing employees or searches for 
+   employee's name via search bar.
+
+3. Administrator left clicks the "Delete" button.
+
+4. Window will appear asking the administrator "Are you sure you want delete (employee's name)?".
+
+NOTE: this will delete employee from both contact list and department list and is irreversible!
+
+5. Administrator left clicks the "Yes" button to keep changes made or left clicks the "Cancel" button
+   to not delete employee and return to the list of existing employees.
+----------------------------------------------------
+
+
+
+----------------------------------------------------
+Brief Description
+----------------------------------------------------
+The "Create Employee" use case enables an administrator to add an employee to the list of existing employees.
+----------------------------------------------------
+Step-by-Step Description
+
+1. Administrator selects "Manage Employee Information" tab.
+
+2. Administrator left clicks the "Create" button.
+
+3. Administrator types in the contact information for the employee being created into the 
+   appropriate fields.
+
+4. Administrator left clicks "Save" to save new employee or left clicks "Cancel" to return to
+   list of existing employees.
+----------------------------------------------------
+
+
+
+
+--------------------------------------------------
+Brief Description
+--------------------------------------------------
+The "Edit Department" use case enables an administrator to change all or some of an existing departments' information.
+--------------------------------------------------
+Step-by-Step Description
+
+1. Administrator selects "Departments" tab.
+
+2. Administrator selects department to be changed from list of existing departments or searches for 
+   department's name via search bar.
+
+3. Administrator left clicks the "Edit Selected Department" button.
+
+4. If adding employee to department, skip to Step 6..
+
+5. If removing employee from department skip to Step 11.
+
+6. Administrator changes the fields that need to be updated.
+
+7. Administrator left clicks "Add Employee to Department" button
+
+8. Administrator selects employee from list of existing employees or searches for employee by name via search bar.
+
+9. Administrator left clicks "Ok" to return to department editor with employee added to department list
+   ,or left clicks "Cancel" to return to department editor.
+
+10. Skip to Step * if administrator is done editing the department's information, continue to step 10
+    to remove employee from department, or return to Step 4 to keep editing.
+
+11. Administrator left clicks "Remove Employee From Department" button
+
+12. Administrator selects employee from list of existing employees in the department or searches for
+   employee by name via search bar.
+
+13. Administrator left clicks "Ok" to return to department editor with employee removed from department list
+   ,or left clicks "Cancel" to return to department editor with employee still in the department.
+
+14. If Administrator still needs to edit the department return to Step 4.
+
+15. Administrator left clicks the "Save" button to keep changes made or left clicks the "Cancel" button
+   to not keep changes make and return to the list of existing employees.
+----------------------------------------------------
+
+
+
+
+--------------------------------------------------
+Brief Description
+--------------------------------------------------
+The "Create Department" use case enables an administrator to add a department to the list existing departments
+--------------------------------------------------
+Step-by-Step Description
+
+1. Administrator selects "Manage Department Information" tab.
+
+2. Administrator left clicks the "Create" button.
+
+3. Administrator fills in department's information in correct fields.
+
+4. Administrator left clicks "Add Employee" button.
+
+5. Administrator selects employees from list of existing employees or searches employee by name via search bar.
+
+6. Administrator left clicks "Ok" button to add employee to department's employee list or
+   left clicks "Cancel" to return to department editor. 
+
+7. Repeat Steps 5 and 6 till all employees in department are added
+
+NOTE: Department must have at least one employee to be saved.
+
+8. Administrator left clicks "Save" button to create the department and return to list of existing departments
+   , or left clicks "Cancel" button to return to list of existing departments.
+------------------------------------------------------
+
+
+
+
+-----------------------------------------------------
+Brief Description
+-----------------------------------------------------
+The "Delete Department" use case enables an administrator to delete department from the list of existing departments
+-----------------------------------------------------
+Step-by-Step Description
+
+1. Administrator selects "Departments" tab
+
+2. Administrator selects department to be deleted or searches for the department by name via search bar.
+
+3. Administrator left clicks "Delete Selected Department" button.
+
+4. Administrator will be asked, "Are you sure you want to delete (department's name)?".
+
+5. Administrator left clicks "Yes" button to delete department and returns to new list of existing departments, or
+   left clicks "Cancel" to return to list of existing departments.
+
+NOTE: Employees will be removed from department, but will not be deleted. The deletion of a department is irreversible.
+------------------------------------------------------
+
+
+
+
+------------------------------------------------------
+Brief Description
+------------------------------------------------------
+The "Create Report" use case enables an employee to create a new report and save the report to Reports.
+------------------------------------------------------
+Step-by-Step Description
+
+1. Employee selects "Reports" tab
+
+2. Employee left clicks "Create" button.
+
+3. Employee inputs report information (start/end date, dimensions, metrics, sort by, filter, Title).
+
+NOTE: Report requires at least one metric.
+
+4. Employee left clicks "Create report" button or left clicks "Cancel" button and is returned to list of reports
+   in Reports folder
+
+5. Employee selects where to save report in Reports folder. Employee can create folder to save report in.
+
+NOTE: reports must be saved in Reports folder or a folder that is located inside the Reports folder.
+
+6. Report (excel file) is opened for employee to view.
+
+7. Employee left clicks "x" button to close report and is returned to list of reports in Reports folder.
+------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------
+Brief Description
+------------------------------------------------------
+The "Delete Report(s)" use case enables an employee to delete a report or folder of reports in Reports folder.
+------------------------------------------------------
+Step-by-Step Description
+
+1. Employee selects "Manage Reports" tab
+
+2. Employee selects report to be deleted, folder of reports to be deleted, or report inside of folder.
+
+3. Employee left Clicks "Delete" button.
+
+4. Employee is asked, "Are you sure you want to delete (report name)?" or "Are your sure you want to
+   delete (folder name)?".
+
+5. Employee left Clicks "Yes" button to delete report(s) and is returned to list of reports in Reports folder, or
+   Employee left clicks "Cancel" to return to list of reports in Report folder.
+
+NOTE: There is no way to undelete a report.
+----------------------------------------------------
+
+
+
+
+
+----------------------------------------------------
+Brief Description
+----------------------------------------------------
+The "Send Report(s)" use case enables an employee to send a report(s) other employees or other
+specified recipients.
+----------------------------------------------------
+Step-by-Step Description
+
+1. Employee selects "Manage Reports" tab.
+
+2. Employee selects report(s) to be sent.
+
+3. Employee left clicks "Send" button.
+
+4. If employee is sending to other employees, employee left clicks "Add Employee to Send List" button.
+
+5. Employee selects employee(s) to receive report(s) or searches the employee to be sent to by name via search bar.
+
+6. Employee left clicks "Add employee(s)" button to add employee(s) to send list, or left clicks "Cancel" button to
+   return to send list. 
+
+7. Repeat Steps 4,5, and 6 till all employees intended to be sent to are added to send list.
+
+8. If employee wants to send report to an entire department, employee left clicks add department.
+
+9. Employee selects department from list of departments, or searches the department by name via search bar.
+
+10. Employee left clicks "Add Email(s)" button to add email(s) to send list, or "Cancel" to return to send list.
+
+12. Repeat Steps 8,9, and 10 till all departments intended to be sent to are added to send list.
+
+13. If employee wants to send the report(s) to specified recipient, employee left clicks "Add Email Address" button.
+
+14. Employee fills in the "Email Address" field with the specified recipients' email address.
+
+15. Employee left clicks "Add Email" button to add email to send list, or "Cancel" to return to send list.
+
+16. Repeat Steps 13, 14, and 15 till as specified recipients intended to be sent to are added to send list.
+
+17. Employee left clicks "Send Report(s)" button to send report(s) to all people on send list, or left click "cancel"     button to return to list of reports in Reports folder.
+
+NOTE: At least one employee, department, or specified recipient must be on send list to send report.
+------------------------------------------------------
